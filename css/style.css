@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap");
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: #4c3434;
+  margin: 0;
+  padding: 0;
+}
+
+header .again {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .again button {
+  background-color: white;
+  padding: 8px 56px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Pixelify Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+header .again p {
+  color: white;
+  font-size: 17px;
+}
+@media (max-width: 430px) {
+  header .again button {
+    background-color: white;
+    padding: 8px 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+  }
+  header .again p {
+    font-size: 14px;
+  }
+}
+
+section {
+  margin-top: 160px;
+  text-align: center;
+}
+section .main h1 {
+  color: white;
+  font-size: 50px;
+}
+section .main hr {
+  height: 10px;
+  background-color: white;
+  border: none;
+  margin-top: 135px;
+}
+section .main h2 {
+  background-color: white;
+  display: inline-block;
+  padding: 18px 56px;
+  font-size: 95px;
+  margin-top: -89px;
+}
+@media (max-width: 430px) {
+  section .main h1 {
+    font-size: 39px;
+  }
+  section .main h2 {
+    font-size: 56px;
+    padding: 6px 40px;
+    margin-top: -51px;
+  }
+  section .main hr {
+    height: 3px;
+    margin-top: 80px;
+  }
+}
+section .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .content .checkbox input {
+  border: 3px solid white;
+  background-color: #4c3434;
+  height: 100px;
+  width: 200px;
+  color: white;
+  font-size: 40px;
+  font-family: "Pixelify Sans", sans-serif;
+  margin-bottom: 20px;
+  text-indent: 5.5rem;
+}
+section .content .checkbox input:focus {
+  outline: none;
+}
+section .content .checkbox button {
+  background-color: white;
+  padding: 8px 56px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Pixelify Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+section .content .status h2 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-top: 40px;
+  margin-bottom: 67px;
+}
+section .content .status h3 {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+@media (max-width: 740px) {
+  section .content .status h2 {
+    font-size: 20px;
+  }
+  section .content .status h3 {
+    font-size: 20px;
+  }
+  section .content .checkbox input {
+    height: 80px;
+    width: 180px;
+  }
+  section .content .checkbox button {
+    padding: 8px 19px;
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    font-family: "Pixelify Sans", sans-serif;
+  }
+}
+@media (max-width: 430px) {
+  section .content .checkbox {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  section .content .checkbox input {
+    width: 105px;
+    height: 50px;
+  }
+  section .content .status h2 {
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 39px;
+    margin-bottom: 34px;
+  }
+  section .content .status h3 {
+    font-size: 19px;
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    overflow-x: hidden;
+  }
+  .content {
+    flex-direction: column;
+  }
+  section {
+    margin-top: 80px;
+  }
+}/*# sourceMappingURL=style.css.map */
